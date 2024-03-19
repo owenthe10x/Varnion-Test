@@ -8,7 +8,7 @@ const TaskList = () => {
 	return (
 		<ul className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 ">
 			{data.map((item, index) => (
-				<TaskCard data={item} index={index} />
+				<TaskCard data={item} index={index} key={index}/>
 			))}
 		</ul>
 	)
