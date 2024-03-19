@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Close from '../public/Close.svg'
 
-
 interface TaskCardProps {
 	title: string
 	body: string
@@ -25,7 +24,7 @@ const TaskCard = ({
 					<p className="text-sm  text-ellipsis">{body}</p>
 				</section>
 				<button
-					className="bg-bgcolor border-2 border-tertiary rounded-md  aspect-square flex justify-center items-center p-2"
+					className="bg-bgcolor border-2 border-tertiary rounded-md  aspect-square w-8 h-8 flex justify-center items-center p-2 "
 					onClick={() => onDelete(index)}
 				>
 					<Image src={Close} alt="" className="w-3" />
