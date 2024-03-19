@@ -1,5 +1,4 @@
 import InputForm from './InputForm'
-import TaskCard from './TaskCard'
 import TaskList from './TaskList'
 const Page = () => {
 	return (
